@@ -1,0 +1,21 @@
+{
+	"participants": [
+		{
+			"name": "Scott",
+			"TotalTime": "10:10"
+		},
+		{
+			"name": "Larry",
+			"TotalTime": "11:10"
+		},
+		{
+			"name": "Tim",
+			"TotalTime": "12:10"
+		},
+		{
+			"name": "Tim",
+			"TotalTime": "13:10"
+		}
+	],
+	"EventType": "Run"
+}
