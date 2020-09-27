@@ -63,9 +63,11 @@ if __name__ == '__main__':
     runScore4 = RunScore(4, 3, 2, 5)
     runScore5 = RunScore(5, 4, 2, 5)
     runScore6 = RunScore(6, 4, 2, 6)
-    runScores = [runScore5, runScore4, runScore1, runScore6, runScore2, runScore3]
+    runScore7 = RunScore(7, 4, 2, 7)
+    runScore8 = RunScore(8, 4, 2, 8)
+    runScores = [runScore5, runScore4, runScore1, runScore6, runScore2, runScore3,runScore7,runScore8]
 
-    print(mapUserToNeighbors(runScores))
+    print(mapUserToNeighbors(runScores,6))
 
     for runScore in runScores:
         print(runScore.armyId),
