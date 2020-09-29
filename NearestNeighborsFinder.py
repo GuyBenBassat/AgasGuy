@@ -67,10 +67,10 @@ if __name__ == '__main__':
     runScore8 = RunScore(8, 4, 2, 8)
     runScores = [runScore5, runScore4, runScore1, runScore6, runScore2, runScore3,runScore7,runScore8]
 
-    print(mapUserToNeighbors(runScores,6))
+    print(mapUserToNeighbors(runScores,4))
 
     for runScore in runScores:
-        print(runScore.armyId),
+        print(runScore.armyId)
     runScores.sort()
     for runScore in runScores:
-        print(runScore.armyId),
+        print(runScore.armyId)

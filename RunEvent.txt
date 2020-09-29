@@ -1,5 +1,5 @@
 {
-	"participants": [
+	"Scores": [
 		{
 			"name": "Scott",
 			"TotalTime": "10:10"
